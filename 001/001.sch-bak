@@ -148,11 +148,11 @@ F 3 "" H 5525 4225 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MF-Jalisco:MF-Jalisco U?
+L MF-Jalisco:MF-Jalisco U4
 U 1 1 5D6731F3
 P 6375 3450
-F 0 "U?" H 6544 3496 50  0000 L CNN
-F 1 "LogoMFJalisco_Back" H 6544 3405 50  0000 L CNN
+F 0 "U4" H 6544 3496 50  0000 L CNN
+F 1 "FirmaMH_Jalisco" H 6544 3405 50  0000 L CNN
 F 2 "MF-Jalisco:001_firma_MF" H 6375 3450 50  0001 C CNN
 F 3 "" H 6375 3450 50  0001 C CNN
 	1    6375 3450

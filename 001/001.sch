@@ -120,7 +120,6 @@ Connection ~ 4675 2850
 Connection ~ 4675 2750
 Wire Wire Line
 	4675 2750 4675 2850
-NoConn ~ 5075 2750
 Wire Wire Line
 	4675 2450 5175 2450
 Wire Wire Line
