@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Adafruit_PCF8523_RTC-eagle-import)(type Legacy)(uri ${KIPRJMOD}/Adafruit_PCF8523_RTC-eagle-import.lib)(options "")(descr ""))
+)

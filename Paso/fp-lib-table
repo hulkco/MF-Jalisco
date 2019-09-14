@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Adafruit PCF8523 RTC")(type KiCad)(uri "$(KIPRJMOD)/Adafruit PCF8523 RTC.pretty")(options "")(descr ""))
+  (lib (name Paso)(type KiCad)(uri ${KIPRJMOD}/Paso.pretty)(options "")(descr ""))
+)
