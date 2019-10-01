@@ -26,14 +26,14 @@
   )
 
   (layers
-    (0 Front signal hide)
-    (31 Back signal hide)
+    (0 Front signal)
+    (31 Back signal)
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
-    (39 F.Mask user hide)
+    (39 F.Mask user)
     (44 Edge.Cuts user)
     (45 Margin user)
     (46 B.CrtYd user)
@@ -6077,7 +6077,11 @@
   (segment (start 143.8386 90.4986) (end 143.51 90.17) (width 0.762) (layer Back) (net 2))
   (via (at 131.064 100.1776) (size 0.6858) (drill 0.3302) (layers Front Back) (net 3))
 
+<<<<<<< Updated upstream
   (zone (net 0) (net_name "") (layer Front) (tstamp 0) (hatch full 0.508)
+=======
+  (zone (net 3) (net_name GND) (layer Front) (tstamp 5D8E57D2) (hatch edge 0.508)
+>>>>>>> Stashed changes
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (keepout (tracks allowed) (vias allowed) (copperpour not_allowed))
@@ -6091,7 +6095,11 @@
       )
     )
   )
+<<<<<<< Updated upstream
   (zone (net 0) (net_name "") (layer Front) (tstamp 0) (hatch full 0.508)
+=======
+  (zone (net 3) (net_name GND) (layer Back) (tstamp 5D8E57CF) (hatch edge 0.508)
+>>>>>>> Stashed changes
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (keepout (tracks allowed) (vias allowed) (copperpour not_allowed))

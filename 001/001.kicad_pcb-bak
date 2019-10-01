@@ -5516,6 +5516,7 @@
     )
   )
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   (module MF-Jalisco:LED_D5.0mm_FlatTop (layer Front) (tedit 5D671329) (tstamp 5D69D79F)
     (at 131.445 90.17)
@@ -5544,6 +5545,13 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+=======
+  (gr_text xircuitos.mx (at 152.2476 89.916) (layer B.SilkS) (tstamp 5D8BE437)
+    (effects (font (size 1.2 1.2) (thickness 0.3)) (justify mirror))
+  )
+  (gr_text "Developed\nby" (at 143.637 121.3866) (layer B.SilkS)
+    (effects (font (size 0.762 0.762) (thickness 0.1905)) (justify mirror))
+>>>>>>> Stashed changes
   )
 
   (module MF-Jalisco:PinBase (layer Back) (tedit 5D671BDA) (tstamp 5D69DCB5)
@@ -5558,6 +5566,7 @@
     (pad "" smd circle (at 0 0) (size 5 5) (layers Back B.Paste B.Mask))
   )
 
+<<<<<<< Updated upstream
   (module MF-Jalisco:MF-Jalisco_Logo_50mmsvg (layer Front) (tedit 0) (tstamp 5D7DEE12)
     (at 123.0503 87.8713)
     (fp_text reference Ref** (at 0 0) (layer F.SilkS) hide
@@ -7155,16 +7164,28 @@
         (xy 160.782 87.63)
       )
     )
+=======
+  (zone (net 3) (net_name GND) (layer Front) (tstamp 5D7DD363) (hatch edge 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 161.925 126.365) (xy 162.56 126.365) (xy 162.3187 74.8157) (xy 112.1537 75.4507) (xy 112.395 126.6825)
+      )
+    )
+>>>>>>> Stashed changes
   )
   (zone (net 3) (net_name GND) (layer Back) (tstamp 5D7DD360) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
-    (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
     (polygon
       (pts
         (xy 162.56 126.365) (xy 112.395 126.365) (xy 112.7125 74.93) (xy 162.56 74.93)
       )
     )
+<<<<<<< Updated upstream
     (filled_polygon
       (pts
         (xy 137.01672 76.302568) (xy 137.121616 76.309145) (xy 137.225162 76.319822) (xy 137.327416 76.33456) (xy 137.428454 76.353335)
@@ -8196,6 +8217,20 @@
         (xy 117.445383 90.477242) (xy 117.361745 90.406366) (xy 117.179101 90.242599) (xy 116.991794 90.063203) (xy 116.939937 90.010577)
         (xy 117.025053 89.987931) (xy 117.028544 89.986948) (xy 123.522701 88.058995) (xy 128.76834 87.248075) (xy 135.946846 86.5632)
         (xy 142.484936 86.5632)
+=======
+  )
+  (zone (net 0) (net_name "") (layer Front) (tstamp 0) (hatch full 0.508)
+    (connect_pads (clearance 0.508))
+    (min_thickness 0.254)
+    (keepout (tracks allowed) (vias allowed) (copperpour not_allowed))
+    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 160.02 88.4936) (xy 157.5816 89.7636) (xy 148.5138 87.2998) (xy 142.494 86.4362) (xy 135.9408 86.4362)
+        (xy 128.7526 87.122) (xy 123.4948 87.9348) (xy 116.9924 89.8652) (xy 114.2238 90.6018) (xy 113.1316 82.2452)
+        (xy 123.3678 79.1464) (xy 132.9182 78.2828) (xy 146.2532 78.3336) (xy 159.3088 81.534) (xy 162.2298 83.4136)
+        (xy 160.782 87.63)
+>>>>>>> Stashed changes
       )
     )
   )
